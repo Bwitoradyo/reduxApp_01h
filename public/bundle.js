@@ -32433,7 +32433,7 @@ var BooksList = function (_React$Component) {
           _reactBootstrap.Col,
           { xs: 12, sm: 6, md: 4, key: booksArr._id },
           _react2.default.createElement(_bookItem2.default, {
-            id: booksArr.id,
+            _id: booksArr._id,
             title: booksArr.title,
             description: booksArr.description,
             price: booksArr.price
@@ -43706,7 +43706,7 @@ var BookItem = function (_React$Component) {
     key: "handleCart",
     value: function handleCart() {
       var book = [].concat(_toConsumableArray(this.props.cart), [{
-        id: this.props.id,
+        _id: this.props._id,
         title: this.props.title,
         description: this.props.description,
         price: this.props.price,
